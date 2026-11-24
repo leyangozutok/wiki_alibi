@@ -1,0 +1,800 @@
+[
+ {
+  "article": "Marie Curie was born in Warsaw in 1867. She moved to Paris to study physics and mathematics. In 1898 she and her husband Pierre announced the discovery of two new elements, polonium and radium. She won the Nobel Prize in Physics in 1903, together with Pierre Curie and Henri Becquerel. She won the Nobel Prize in Chemistry in 1911 and became the first person to win Nobel Prizes in two different sciences. She died in 1934 from an illness linked to radiation.",
+  "case": {
+   "case_id": "demo0001",
+   "wiki_title": "Marie Curie",
+   "category": "famous people",
+   "tamper_type": "date",
+   "clues": [
+    {
+     "id": 1,
+     "text": "The subject was born in Warsaw in 1867.",
+     "is_false": false
+    },
+    {
+     "id": 2,
+     "text": "In 1898 the subject and a spouse announced two new elements, polonium and radium.",
+     "is_false": false
+    },
+    {
+     "id": 3,
+     "text": "The subject shared a Nobel Prize in Physics in 1903.",
+     "is_false": false
+    },
+    {
+     "id": 4,
+     "text": "The subject won a Nobel Prize in Chemistry in 1921.",
+     "is_false": true
+    },
+    {
+     "id": 5,
+     "text": "The subject died in 1934 from an illness linked to radiation.",
+     "is_false": false
+    }
+   ],
+   "original_sentence": "She won the Nobel Prize in Chemistry in 1911 and became the first person to win Nobel Prizes in two different sciences.",
+   "false_sentence": "She won the Nobel Prize in Chemistry in 1921 and became the first person to win Nobel Prizes in two different sciences.",
+   "original_value": "1911",
+   "false_value": "1921",
+   "explanation": "The Nobel Prize in Chemistry was won in 1911, not 1921.",
+   "briefing": ""
+  }
+ },
+ {
+  "article": "The Eiffel Tower is an iron lattice tower on the Champ de Mars in Paris, France. It was designed by the engineering company of Gustave Eiffel. Construction began in 1887 and the structure was finished in 1889 for the World's Fair. At that time it was the tallest man-made structure in the world. Today the tower is about 330 metres tall. Millions of visitors climb or ride up it every year.",
+  "case": {
+   "case_id": "demo0002",
+   "wiki_title": "Eiffel Tower",
+   "category": "France",
+   "tamper_type": "place",
+   "clues": [
+    {
+     "id": 1,
+     "text": "Construction of this iron structure began in 1887.",
+     "is_false": false
+    },
+    {
+     "id": 2,
+     "text": "This iron lattice structure stands on the Champ de Mars in Lyon, France.",
+     "is_false": true
+    },
+    {
+     "id": 3,
+     "text": "It was finished in 1889 for a World's Fair.",
+     "is_false": false
+    },
+    {
+     "id": 4,
+     "text": "It is about 330 metres tall today.",
+     "is_false": false
+    },
+    {
+     "id": 5,
+     "text": "When it was finished, it was the tallest man-made structure in the world.",
+     "is_false": false
+    }
+   ],
+   "original_sentence": "The Eiffel Tower is an iron lattice tower on the Champ de Mars in Paris, France.",
+   "false_sentence": "The Eiffel Tower is an iron lattice tower on the Champ de Mars in Lyon, France.",
+   "original_value": "Paris",
+   "false_value": "Lyon",
+   "explanation": "The Champ de Mars is in Paris, not in Lyon.",
+   "briefing": ""
+  }
+ },
+ {
+  "article": "Hangul is the writing system of the Korean language. It was created in 1443 by King Sejong the Great and his scholars. It was officially announced in 1446 in a document called Hunminjeongeum. Modern Hangul has 24 basic letters. The letters are grouped into blocks that represent syllables. South Korea celebrates Hangul Day every year in October.",
+  "case": {
+   "case_id": "demo0003",
+   "wiki_title": "Hangul",
+   "category": "Korea",
+   "tamper_type": "number",
+   "clues": [
+    {
+     "id": 1,
+     "text": "It was created in 1443 by a king named Sejong and his scholars.",
+     "is_false": false
+    },
+    {
+     "id": 2,
+     "text": "It was officially announced in 1446.",
+     "is_false": false
+    },
+    {
+     "id": 3,
+     "text": "Its letters are grouped into blocks that represent syllables.",
+     "is_false": false
+    },
+    {
+     "id": 4,
+     "text": "A country celebrates a special day for it every year in October.",
+     "is_false": false
+    },
+    {
+     "id": 5,
+     "text": "The modern version of this alphabet has 28 basic letters.",
+     "is_false": true
+    }
+   ],
+   "original_sentence": "Modern Hangul has 24 basic letters.",
+   "false_sentence": "Modern Hangul has 28 basic letters.",
+   "original_value": "24",
+   "false_value": "28",
+   "explanation": "Modern Hangul has 24 basic letters, not 28.",
+   "briefing": ""
+  }
+ },
+ {
+  "article": "Apollo 11 was the American space mission that first landed humans on the Moon. It was launched on 16 July 1969. Neil Armstrong and Buzz Aldrin landed on the Moon on 20 July 1969. Michael Collins remained in lunar orbit in the command module. Armstrong was the first person to step onto the surface. The crew returned safely to Earth on 24 July 1969.",
+  "case": {
+   "case_id": "demo0004",
+   "wiki_title": "Apollo 11",
+   "category": "science",
+   "tamper_type": "person",
+   "clues": [
+    {
+     "id": 1,
+     "text": "It was launched in July 1969.",
+     "is_false": false
+    },
+    {
+     "id": 2,
+     "text": "Two astronauts landed on the surface on 20 July 1969.",
+     "is_false": false
+    },
+    {
+     "id": 3,
+     "text": "An astronaut named Frank Borman stayed in orbit around the Moon in the command module.",
+     "is_false": true
+    },
+    {
+     "id": 4,
+     "text": "Neil Armstrong was the first person to step onto the surface.",
+     "is_false": false
+    },
+    {
+     "id": 5,
+     "text": "The crew returned safely to Earth on 24 July 1969.",
+     "is_false": false
+    }
+   ],
+   "original_sentence": "Michael Collins remained in lunar orbit in the command module.",
+   "false_sentence": "Frank Borman remained in lunar orbit in the command module.",
+   "original_value": "Michael Collins",
+   "false_value": "Frank Borman",
+   "explanation": "Michael Collins stayed in orbit, not Frank Borman.",
+   "briefing": ""
+  }
+ },
+ {
+  "article": "The Berlin Wall was a guarded barrier that surrounded West Berlin and separated it from East Germany. Construction began on 13 August 1961. It was about 155 kilometres long. It fell on 9 November 1989. Germany was reunified in 1990.",
+  "case": {
+   "case_id": "demo0005",
+   "wiki_title": "Berlin Wall",
+   "category": "history",
+   "tamper_type": "number",
+   "clues": [
+    {
+     "id": 1,
+     "text": "Construction began in 1961.",
+     "is_false": false
+    },
+    {
+     "id": 2,
+     "text": "It surrounded a city and separated it from East Germany.",
+     "is_false": false
+    },
+    {
+     "id": 3,
+     "text": "The barrier was about 255 kilometres long.",
+     "is_false": true
+    },
+    {
+     "id": 4,
+     "text": "It fell on 9 November 1989.",
+     "is_false": false
+    },
+    {
+     "id": 5,
+     "text": "Germany was reunified in 1990.",
+     "is_false": false
+    }
+   ],
+   "original_sentence": "It was about 155 kilometres long.",
+   "false_sentence": "It was about 255 kilometres long.",
+   "original_value": "155",
+   "false_value": "255",
+   "explanation": "The barrier was about 155 kilometres long, not 255.",
+   "briefing": ""
+  }
+ },
+ {
+  "article": "Titanic was a British passenger ship. It sank in the North Atlantic Ocean on 15 April 1912 after hitting an iceberg. The ship left Southampton on its first voyage to New York City. About 2,224 people were on board. More than 1,500 of them died. It was built in Belfast by the company Harland and Wolff.",
+  "case": {
+   "case_id": "demo0006",
+   "wiki_title": "Titanic",
+   "category": "history",
+   "tamper_type": "place",
+   "clues": [
+    {
+     "id": 1,
+     "text": "It sank in the North Atlantic Ocean in 1912 after hitting an iceberg.",
+     "is_false": false
+    },
+    {
+     "id": 2,
+     "text": "The ship left Southampton on its first voyage.",
+     "is_false": false
+    },
+    {
+     "id": 3,
+     "text": "About 2,224 people were on board.",
+     "is_false": false
+    },
+    {
+     "id": 4,
+     "text": "More than 1,500 people died.",
+     "is_false": false
+    },
+    {
+     "id": 5,
+     "text": "It was built in Liverpool by the company Harland and Wolff.",
+     "is_false": true
+    }
+   ],
+   "original_sentence": "It was built in Belfast by the company Harland and Wolff.",
+   "false_sentence": "It was built in Liverpool by the company Harland and Wolff.",
+   "original_value": "Belfast",
+   "false_value": "Liverpool",
+   "explanation": "The ship was built in Belfast, not in Liverpool.",
+   "briefing": ""
+  }
+ },
+ {
+  "article": "Leonardo da Vinci was an Italian artist and inventor. He was born in 1452 in the town of Vinci, near Florence. He painted the Mona Lisa and The Last Supper. He worked for many years in Milan. He died in 1519 in France.",
+  "case": {
+   "case_id": "demo0007",
+   "wiki_title": "Leonardo da Vinci",
+   "category": "famous people",
+   "tamper_type": "date",
+   "clues": [
+    {
+     "id": 1,
+     "text": "He was an Italian artist and inventor.",
+     "is_false": false
+    },
+    {
+     "id": 2,
+     "text": "The artist was born in 1472 near Florence.",
+     "is_false": true
+    },
+    {
+     "id": 3,
+     "text": "He painted the Mona Lisa and The Last Supper.",
+     "is_false": false
+    },
+    {
+     "id": 4,
+     "text": "He worked for many years in Milan.",
+     "is_false": false
+    },
+    {
+     "id": 5,
+     "text": "He died in 1519 in France.",
+     "is_false": false
+    }
+   ],
+   "original_sentence": "He was born in 1452 in the town of Vinci, near Florence.",
+   "false_sentence": "He was born in 1472 in the town of Vinci, near Florence.",
+   "original_value": "1452",
+   "false_value": "1472",
+   "explanation": "He was born in 1452, not in 1472.",
+   "briefing": ""
+  }
+ },
+ {
+  "article": "Isaac Newton was an English mathematician and physicist. He studied at Trinity College in Cambridge. In 1687 he published a book called Principia, which describes the laws of motion and gravity. He also built an early type of reflecting telescope. He died in 1727 in London.",
+  "case": {
+   "case_id": "demo0008",
+   "wiki_title": "Isaac Newton",
+   "category": "famous people",
+   "tamper_type": "place",
+   "clues": [
+    {
+     "id": 1,
+     "text": "He was an English mathematician and physicist.",
+     "is_false": false
+    },
+    {
+     "id": 2,
+     "text": "He studied at Trinity College in Cambridge.",
+     "is_false": false
+    },
+    {
+     "id": 3,
+     "text": "He published a book about the laws of motion and gravity in 1687.",
+     "is_false": false
+    },
+    {
+     "id": 4,
+     "text": "He built an early type of reflecting telescope.",
+     "is_false": false
+    },
+    {
+     "id": 5,
+     "text": "He died in 1727 in Edinburgh.",
+     "is_false": true
+    }
+   ],
+   "original_sentence": "He died in 1727 in London.",
+   "false_sentence": "He died in 1727 in Edinburgh.",
+   "original_value": "London",
+   "false_value": "Edinburgh",
+   "explanation": "He died in London, not in Edinburgh.",
+   "briefing": ""
+  }
+ },
+ {
+  "article": "Python is a programming language created by Guido van Rossum. Its first version was released in 1991. The language is known for its simple and readable code. Python 3.0 was released in 2008. It is used for web development, data science and artificial intelligence.",
+  "case": {
+   "case_id": "demo0009",
+   "wiki_title": "Python (programming language)",
+   "category": "computing and electronics basics",
+   "tamper_type": "person",
+   "clues": [
+    {
+     "id": 1,
+     "text": "This language was created by Dennis Ritchie.",
+     "is_false": true
+    },
+    {
+     "id": 2,
+     "text": "Its first version was released in 1991.",
+     "is_false": false
+    },
+    {
+     "id": 3,
+     "text": "It is known for its simple and readable code.",
+     "is_false": false
+    },
+    {
+     "id": 4,
+     "text": "Version 3.0 was released in 2008.",
+     "is_false": false
+    },
+    {
+     "id": 5,
+     "text": "It is used for web development, data science and artificial intelligence.",
+     "is_false": false
+    }
+   ],
+   "original_sentence": "Python is a programming language created by Guido van Rossum.",
+   "false_sentence": "Python is a programming language created by Dennis Ritchie.",
+   "original_value": "Guido van Rossum",
+   "false_value": "Dennis Ritchie",
+   "explanation": "Python was created by Guido van Rossum, not by Dennis Ritchie.",
+   "briefing": ""
+  }
+ },
+ {
+  "article": "The transistor is a small electronic device that can amplify or switch signals. It was invented at Bell Labs in 1947 by John Bardeen, Walter Brattain and William Shockley. The three men won the Nobel Prize in Physics in 1956. Transistors replaced vacuum tubes in many devices. A modern chip can contain billions of them.",
+  "case": {
+   "case_id": "demo0010",
+   "wiki_title": "Transistor",
+   "category": "computing and electronics basics",
+   "tamper_type": "date",
+   "clues": [
+    {
+     "id": 1,
+     "text": "It is a small electronic device that can amplify or switch signals.",
+     "is_false": false
+    },
+    {
+     "id": 2,
+     "text": "It was invented at Bell Labs in 1957.",
+     "is_false": true
+    },
+    {
+     "id": 3,
+     "text": "Its three inventors won the Nobel Prize in Physics in 1956.",
+     "is_false": false
+    },
+    {
+     "id": 4,
+     "text": "It replaced vacuum tubes in many devices.",
+     "is_false": false
+    },
+    {
+     "id": 5,
+     "text": "A modern chip can contain billions of them.",
+     "is_false": false
+    }
+   ],
+   "original_sentence": "It was invented at Bell Labs in 1947 by John Bardeen, Walter Brattain and William Shockley.",
+   "false_sentence": "It was invented at Bell Labs in 1957 by John Bardeen, Walter Brattain and William Shockley.",
+   "original_value": "1947",
+   "false_value": "1957",
+   "explanation": "It was invented in 1947, not in 1957.",
+   "briefing": ""
+  }
+ },
+ {
+  "article": "Mars is the fourth planet from the Sun. It is called the Red Planet because of the iron oxide on its surface. Mars has two small moons, Phobos and Deimos. A day on Mars lasts about 24 hours and 37 minutes. The highest volcano in the Solar System, Olympus Mons, is on Mars. NASA's rover Perseverance landed there in 2021.",
+  "case": {
+   "case_id": "demo0011",
+   "wiki_title": "Mars",
+   "category": "science",
+   "tamper_type": "number",
+   "clues": [
+    {
+     "id": 1,
+     "text": "It is the fourth planet from the Sun.",
+     "is_false": false
+    },
+    {
+     "id": 2,
+     "text": "It is called the Red Planet because of the iron oxide on its surface.",
+     "is_false": false
+    },
+    {
+     "id": 3,
+     "text": "It has two small moons, Phobos and Deimos.",
+     "is_false": false
+    },
+    {
+     "id": 4,
+     "text": "A day there lasts about 30 hours and 37 minutes.",
+     "is_false": true
+    },
+    {
+     "id": 5,
+     "text": "A NASA rover called Perseverance landed there in 2021.",
+     "is_false": false
+    }
+   ],
+   "original_sentence": "A day on Mars lasts about 24 hours and 37 minutes.",
+   "false_sentence": "A day on Mars lasts about 30 hours and 37 minutes.",
+   "original_value": "24",
+   "false_value": "30",
+   "explanation": "A day lasts about 24 hours and 37 minutes, not 30.",
+   "briefing": ""
+  }
+ },
+ {
+  "article": "DNA is the molecule that carries genetic information in living things. Its structure is a double helix. The double helix was described in 1953 by James Watson and Francis Crick, using data from Rosalind Franklin. Human DNA has about 3 billion base pairs. The Human Genome Project was completed in 2003.",
+  "case": {
+   "case_id": "demo0012",
+   "wiki_title": "DNA",
+   "category": "science",
+   "tamper_type": "date",
+   "clues": [
+    {
+     "id": 1,
+     "text": "It is the molecule that carries genetic information in living things.",
+     "is_false": false
+    },
+    {
+     "id": 2,
+     "text": "Its structure is a double helix.",
+     "is_false": false
+    },
+    {
+     "id": 3,
+     "text": "The double helix was described in 1963.",
+     "is_false": true
+    },
+    {
+     "id": 4,
+     "text": "A human has about 3 billion base pairs of this molecule.",
+     "is_false": false
+    },
+    {
+     "id": 5,
+     "text": "A project to read all human genes was completed in 2003.",
+     "is_false": false
+    }
+   ],
+   "original_sentence": "The double helix was described in 1953 by James Watson and Francis Crick, using data from Rosalind Franklin.",
+   "false_sentence": "The double helix was described in 1963 by James Watson and Francis Crick, using data from Rosalind Franklin.",
+   "original_value": "1953",
+   "false_value": "1963",
+   "explanation": "The double helix was described in 1953, not in 1963.",
+   "briefing": ""
+  }
+ },
+ {
+  "article": "Seoul is the capital and largest city of South Korea. It lies on the Han River. The city was the capital of the Joseon dynasty, which began in 1392. More than 9 million people live in the city. Seoul hosted the Summer Olympic Games in 1988.",
+  "case": {
+   "case_id": "demo0013",
+   "wiki_title": "Seoul",
+   "category": "Korea",
+   "tamper_type": "place",
+   "clues": [
+    {
+     "id": 1,
+     "text": "It is the capital and largest city of South Korea.",
+     "is_false": false
+    },
+    {
+     "id": 2,
+     "text": "It lies on the Nakdong River.",
+     "is_false": true
+    },
+    {
+     "id": 3,
+     "text": "It was the capital of the Joseon dynasty, which began in 1392.",
+     "is_false": false
+    },
+    {
+     "id": 4,
+     "text": "More than 9 million people live there.",
+     "is_false": false
+    },
+    {
+     "id": 5,
+     "text": "It hosted the Summer Olympic Games in 1988.",
+     "is_false": false
+    }
+   ],
+   "original_sentence": "It lies on the Han River.",
+   "false_sentence": "It lies on the Nakdong River.",
+   "original_value": "Han River",
+   "false_value": "Nakdong River",
+   "explanation": "The city lies on the Han River, not on the Nakdong River.",
+   "briefing": ""
+  }
+ },
+ {
+  "article": "Gyeongbokgung is a royal palace in the capital of South Korea. It was built in 1395 by the Joseon dynasty. The palace was burned in 1592 during the Japanese invasions. It was rebuilt in 1867. Today many visitors come to see the changing of the royal guard ceremony.",
+  "case": {
+   "case_id": "demo0014",
+   "wiki_title": "Gyeongbokgung",
+   "category": "Korea",
+   "tamper_type": "date",
+   "clues": [
+    {
+     "id": 1,
+     "text": "It is a royal palace in the capital of South Korea.",
+     "is_false": false
+    },
+    {
+     "id": 2,
+     "text": "It was built in 1405 by the Joseon dynasty.",
+     "is_false": true
+    },
+    {
+     "id": 3,
+     "text": "It was burned in 1592 during the Japanese invasions.",
+     "is_false": false
+    },
+    {
+     "id": 4,
+     "text": "It was rebuilt in 1867.",
+     "is_false": false
+    },
+    {
+     "id": 5,
+     "text": "Today many visitors come to see the changing of the royal guard ceremony.",
+     "is_false": false
+    }
+   ],
+   "original_sentence": "It was built in 1395 by the Joseon dynasty.",
+   "false_sentence": "It was built in 1405 by the Joseon dynasty.",
+   "original_value": "1395",
+   "false_value": "1405",
+   "explanation": "The palace was built in 1395, not in 1405.",
+   "briefing": ""
+  }
+ },
+ {
+  "article": "Napoleon Bonaparte was a French military leader. He was born in 1769 on the island of Corsica. He crowned himself Emperor of the French in 1804. He was defeated at the Battle of Waterloo in 1815. He died in 1821 on the island of Saint Helena.",
+  "case": {
+   "case_id": "demo0015",
+   "wiki_title": "Napoleon",
+   "category": "France",
+   "tamper_type": "place",
+   "clues": [
+    {
+     "id": 1,
+     "text": "He was a French military leader.",
+     "is_false": false
+    },
+    {
+     "id": 2,
+     "text": "He was born in 1769 on the island of Corsica.",
+     "is_false": false
+    },
+    {
+     "id": 3,
+     "text": "He crowned himself Emperor of the French in 1804.",
+     "is_false": false
+    },
+    {
+     "id": 4,
+     "text": "He was defeated at the Battle of Waterloo in 1815.",
+     "is_false": false
+    },
+    {
+     "id": 5,
+     "text": "He died in 1821 on the island of Elba.",
+     "is_false": true
+    }
+   ],
+   "original_sentence": "He died in 1821 on the island of Saint Helena.",
+   "false_sentence": "He died in 1821 on the island of Elba.",
+   "original_value": "Saint Helena",
+   "false_value": "Elba",
+   "explanation": "He died on Saint Helena, not on Elba.",
+   "briefing": ""
+  }
+ },
+ {
+  "article": "The Louvre is the largest art museum in the world. It stands in Paris, on the right bank of the Seine river. The building was a royal palace before it became a museum in 1793. The glass pyramid at the entrance was finished in 1989. The museum shows the Mona Lisa.",
+  "case": {
+   "case_id": "demo0016",
+   "wiki_title": "Louvre",
+   "category": "France",
+   "tamper_type": "date",
+   "clues": [
+    {
+     "id": 1,
+     "text": "It is the largest art museum in the world.",
+     "is_false": false
+    },
+    {
+     "id": 2,
+     "text": "It stands in Paris, on the right bank of the Seine river.",
+     "is_false": false
+    },
+    {
+     "id": 3,
+     "text": "The building was a royal palace before it became a museum in 1783.",
+     "is_false": true
+    },
+    {
+     "id": 4,
+     "text": "Its glass pyramid was finished in 1989.",
+     "is_false": false
+    },
+    {
+     "id": 5,
+     "text": "It shows the Mona Lisa.",
+     "is_false": false
+    }
+   ],
+   "original_sentence": "The building was a royal palace before it became a museum in 1793.",
+   "false_sentence": "The building was a royal palace before it became a museum in 1783.",
+   "original_value": "1793",
+   "false_value": "1783",
+   "explanation": "It became a museum in 1793, not in 1783.",
+   "briefing": ""
+  }
+ },
+ {
+  "article": "Alan Turing was an English mathematician and computer scientist. He was born in London in 1912. During the Second World War he worked at Bletchley Park, where he helped to break German codes. In 1950 he proposed the Turing test, a way to test if a machine can think. He died in 1954.",
+  "case": {
+   "case_id": "demo0017",
+   "wiki_title": "Alan Turing",
+   "category": "computing and electronics basics",
+   "tamper_type": "place",
+   "clues": [
+    {
+     "id": 1,
+     "text": "He was an English mathematician and computer scientist.",
+     "is_false": false
+    },
+    {
+     "id": 2,
+     "text": "He was born in London in 1912.",
+     "is_false": false
+    },
+    {
+     "id": 3,
+     "text": "During the Second World War he worked at Los Alamos, where he helped to break German codes.",
+     "is_false": true
+    },
+    {
+     "id": 4,
+     "text": "In 1950 he proposed a test to check if a machine can think.",
+     "is_false": false
+    },
+    {
+     "id": 5,
+     "text": "He died in 1954.",
+     "is_false": false
+    }
+   ],
+   "original_sentence": "During the Second World War he worked at Bletchley Park, where he helped to break German codes.",
+   "false_sentence": "During the Second World War he worked at Los Alamos, where he helped to break German codes.",
+   "original_value": "Bletchley Park",
+   "false_value": "Los Alamos",
+   "explanation": "He worked at Bletchley Park, not at Los Alamos.",
+   "briefing": ""
+  }
+ },
+ {
+  "article": "The Bermuda Triangle is an area of the Atlantic Ocean between Bermuda, Miami and Puerto Rico. Many stories say that ships and planes have disappeared there. The most famous case is Flight 19, five US Navy planes that vanished in 1945. Scientists say that the number of accidents is not higher than in other busy areas. The name was made popular by a magazine article by Vincent Gaddis in 1964.",
+  "case": {
+   "case_id": "demo0018",
+   "wiki_title": "Bermuda Triangle",
+   "category": "famous mysteries and investigations",
+   "tamper_type": "person",
+   "clues": [
+    {
+     "id": 1,
+     "text": "It is an area of the Atlantic Ocean near Miami and Puerto Rico.",
+     "is_false": false
+    },
+    {
+     "id": 2,
+     "text": "Many stories say that ships and planes have disappeared there.",
+     "is_false": false
+    },
+    {
+     "id": 3,
+     "text": "The most famous case is five US Navy planes that vanished in 1945.",
+     "is_false": false
+    },
+    {
+     "id": 4,
+     "text": "Scientists say that the number of accidents is not higher than in other busy areas.",
+     "is_false": false
+    },
+    {
+     "id": 5,
+     "text": "The name was made popular by a magazine article by Carl Sagan in 1964.",
+     "is_false": true
+    }
+   ],
+   "original_sentence": "The name was made popular by a magazine article by Vincent Gaddis in 1964.",
+   "false_sentence": "The name was made popular by a magazine article by Carl Sagan in 1964.",
+   "original_value": "Vincent Gaddis",
+   "false_value": "Carl Sagan",
+   "explanation": "The name was made popular by Vincent Gaddis, not by Carl Sagan.",
+   "briefing": ""
+  }
+ },
+ {
+  "article": "Stonehenge is a prehistoric monument in Wiltshire, England. It consists of a ring of large standing stones. The first stage of the monument was built about 3100 BC. The tallest stones are about 7 metres high. It became a UNESCO World Heritage Site in 1986. People still gather there to watch the sunrise at midsummer.",
+  "case": {
+   "case_id": "demo0019",
+   "wiki_title": "Stonehenge",
+   "category": "famous mysteries and investigations",
+   "tamper_type": "number",
+   "clues": [
+    {
+     "id": 1,
+     "text": "It is a prehistoric monument in Wiltshire, England.",
+     "is_false": false
+    },
+    {
+     "id": 2,
+     "text": "It consists of a ring of large standing stones.",
+     "is_false": false
+    },
+    {
+     "id": 3,
+     "text": "The first stage was built about 3100 BC.",
+     "is_false": false
+    },
+    {
+     "id": 4,
+     "text": "The tallest stones are about 17 metres high.",
+     "is_false": true
+    },
+    {
+     "id": 5,
+     "text": "It became a UNESCO World Heritage Site in 1986.",
+     "is_false": false
+    }
+   ],
+   "original_sentence": "The tallest stones are about 7 metres high.",
+   "false_sentence": "The tallest stones are about 17 metres high.",
+   "original_value": "7",
+   "false_value": "17",
+   "explanation": "The tallest stones are about 7 metres high, not 17.",
+   "briefing": ""
+  }
+ }
+]

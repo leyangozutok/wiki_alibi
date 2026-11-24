@@ -1,0 +1,10 @@
+.streamlit/secrets.toml
+data/llm_usage.json
+data/games.jsonl
+data/survey.csv
+analysis/
+__pycache__/
+.pytest_cache/
+*.pyc
+.venv/
+data/players.json
